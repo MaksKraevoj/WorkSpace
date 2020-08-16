@@ -4,9 +4,14 @@ using System.Text;
 
 namespace OOP
 {
-    class Car
+    public class Car
     {
-        int speed = 50;
-        int weight = 100;
+        public int speed;
+        
+        public void ChangeSpeed(int change) 
+        {
+            speed += change;
+        }
+
     }
 }

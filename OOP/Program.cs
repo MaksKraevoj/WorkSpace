@@ -6,7 +6,10 @@ namespace OOP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Car c = new Car();
+            c.ChangeSpeed(15);
+            Console.WriteLine(c.speed);
+            
         }
     }
 }
