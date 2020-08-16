@@ -9,9 +9,11 @@ namespace WorkSpace
     {
         static void Main(string[] args)
         {
-            Car c = new Car();
-            c.ChangeSpeed(15);
-            Console.WriteLine(c.speed);
+        //    Car c = new Car();
+        //    c.ChangeSpeed(15);
+        //    Console.WriteLine(c.speed);
+
+
         }
 
     }

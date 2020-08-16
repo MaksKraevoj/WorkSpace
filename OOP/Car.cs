@@ -6,7 +6,7 @@ namespace OOP
 {
     public class Car
     {
-        public int speed;
+        private int speed;
         
         public void ChangeSpeed(int change) 
         {
