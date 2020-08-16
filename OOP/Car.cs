@@ -7,5 +7,6 @@ namespace OOP
     class Car
     {
         int speed = 50;
+        int weight = 100;
     }
 }
